@@ -15,6 +15,7 @@ metrics
 # 1. Clone the repository:
    bash:  
    git clone https://github.com/AparnaJayalakshmi/vendor_management_sytem.git
+   
    cd project-directory (vendor_management_system)  
 
 # 2.Create a virtual environment:
