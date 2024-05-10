@@ -24,7 +24,9 @@ source venv/bin/activate  # For Linux/Mac
 venv\Scripts\activate     # For Windows
 
 # 4.Database setup:
+
 python manage.py makemigrations  
+
 python manage.py migrate  
 
 ## Usage
@@ -76,5 +78,6 @@ GET /vendor/historical_performance: List historical performance for all vendors.
 GET /vendor/historical_performance/{id}/: Retrieve historical performance for a specific vendor.  
 
 Update Acknowledgment Endpoint:  
+
 POST /api/purchase_orders/{po_id}/acknowledge for vendors to acknowledge POs.  
 
