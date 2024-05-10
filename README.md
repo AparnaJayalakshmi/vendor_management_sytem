@@ -34,7 +34,9 @@ python manage.py runserver
 # 2.Access API endpoints:
 
 Vendor API: /vendor/
+
 Purchase Order API: /purchase-order/  
+
 Historical Performance API: /vendor/historical_performance 
 
 Postman is used to test API.
