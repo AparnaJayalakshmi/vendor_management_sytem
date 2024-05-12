@@ -74,8 +74,8 @@ Vendor Performance Evaluation
 ● GET /api/vendors/{vendor_id}/performance: Retrieve a vendor's performance metrics  
 
 Historical Performance API  
-GET /vendor/historical_performance: List historical performance for all vendors.  
-GET /vendor/historical_performance/{id}/: Retrieve historical performance for a specific vendor.  
+GET /vendors/historical_performance: List historical performance for all vendors.  
+GET /vendors/historical_performance/{id}/: Retrieve historical performance for a specific vendor.  
 
 Update Acknowledgment Endpoint:  
 
